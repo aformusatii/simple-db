@@ -1,0 +1,28 @@
+TODO:
+
+API to be implemented:
+    - Store JSON object in given collection which must have attributes: {timestamp, id}, id can be auto generated.
+    - Update JSON object
+    - Delete JSON object by id
+    - Get all in collection
+    - Get by ID in collection
+    - Find by time interval in collection
+
+    - Store binary files to collection with id or auto-generate the id
+    - Retrieve binary file based on the id
+    - Delete binary file
+
+    - delete entire collection
+
+Cross-Origin Resource Sharing (CORS) should be supported for any host.
+
+Authentication per collection or Admin.
+
+Simple UI Admin
+    - Create User
+    - Update User
+    - Delete User
+
+    - View all existing collections
+    - Manage users under collection
+    - Collection simple viewer
